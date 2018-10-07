@@ -1,0 +1,31 @@
+Create a maven web app projet and add Spring boot dependecies as shown below
+   <parent>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-parent</artifactId>
+      <version>1.5.8.RELEASE</version>
+      <relativePath/> 
+   </parent>
+   
+    <dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter</artifactId>
+		</dependency>
+        <dependency>
+               <groupId>org.springframework.boot</groupId>
+               <artifactId>spring-boot-starter-web</artifactId>
+          </dependency>
+          <dependency>  
+       		 <groupId>org.springframework.boot</groupId>  
+        	 <artifactId>spring-boot-starter-thymeleaf</artifactId>  
+   		</dependency>  
+	
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+Create a controller and applicaation class
+
+Run Application class as java application,
+localhost:8080/bank/name
+loaclhost:8080/bank/address
